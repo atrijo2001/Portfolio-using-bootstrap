@@ -11,6 +11,32 @@
 <body>
     
   <div class="container">
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">My portfolio</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                          <a href="index.html" class="nav-link">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">Resume</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">Work</a>
+                      </li>
+                  </ul>
+            </div>
+          </div>
+    </nav>
+
+    <!-- Main header section -->
       <header id="main-header">
           <div class="row no-gutters">
               <div class="col-lg-4 col-md-5">
@@ -171,6 +197,25 @@
                     </div>
                    </div>
                 </div>
+           </div>
+       </div>
+
+       <!-- Form -->
+       <div id="work" class="collapse show">
+           <h1 class="text-center">Contact Me</h1>
+           <div class="form">
+               <label for="name">Name</label>
+               <input type="text" class="form-control" placeholder="Enter your name">
+
+               <label for="email">Email</label>
+               <input type="email" class="form-control" placeholder="Enter your Email">
+
+               <label for="phone">Phone</label>
+               <input type="text" class="form-control" placeholder="Enter your Phone">
+               
+               <textarea placeholder="Enter Message" name="" id="" cols="30" rows="10" class="form-control p-3 my-3"></textarea>
+
+               <button class="btn btn-block bg-primary text-white my-3">Submit</button>
            </div>
        </div>
       <!-- Footer -->
